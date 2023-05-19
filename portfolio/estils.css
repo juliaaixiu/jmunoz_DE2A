@@ -1,0 +1,194 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+body{
+    min-height:100%;
+    height: 70vh;
+    background: rgb(255,154,124);
+    background: radial-gradient(circle, rgba(255,154,124,1) 0%, rgba(255,245,239,1) 86%);
+
+}
+
+#nombre{
+    margin-top:13%;
+    margin-bottom: 3%;
+    height: 100px;
+    width: 2000px;
+    font-family: 'WindSong', cursive;
+    font-size: 53pt;
+    color: #ffffff;
+    font-weight:300;
+    text-align: center;
+    opacity: 60%;
+}
+
+#contenedor{
+    height: 55px;
+    width: 1600px;
+∫}
+
+
+#redonda{
+    position: absolute;
+    top:0%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    height: 200pt;
+    width: 200pt;
+    background: radial-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 2));
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 2);
+}
+
+    p{
+        position: absolute;
+        top:72%;
+        left:50%;
+        transform: translate(-50%,-72%);
+        font-family: 'Inconsolata', monospace;
+        font-size: 30pt;
+        color: #90BD43
+
+    }
+
+.acts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,154,124);
+    background: radial-gradient(circle, rgba(255,154,124,1) 0%, rgba(255,245,239,1) 86%);    width: 1300px;
+    height: 150px;
+    float:left;
+}
+
+.rec2{
+    height: 150px;
+    width: 250px;
+    display: flex;
+}
+
+.rec2:hover{
+        transform: scale(1.2);
+
+}
+#act1{
+    margin-left:0;
+}
+
+
+#act2{
+        margin-right:-25px;
+
+        background: rgb(255,154,124);
+        background: radial-gradient(circle, rgba(255,154,124,0.6573223039215687) 11%, rgba(255,245,239,1) 95%);
+}
+#act2:hover{
+    background-image: url(act2.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #F8E7D6;
+}
+
+#act3{
+    margin-left:-25px;
+
+    background: rgb(255,154,124);
+background: radial-gradient(circle, rgba(255,154,124,0.6573223039215687) 11%, rgba(255,245,239,1) 95%);
+}
+#act3:hover{
+    float:left;
+    background-image: url(act3.png);
+    background-size: cover;
+background-position: center;}
+
+#act4{
+    margin-right:0;
+
+}
+
+.miniatura{
+    height: 111px;
+    width: 111px;
+    background-color: #FFD7CB;;
+
+}
+
+.miniatura:hover{
+    transform: scale(1.2);
+
+}
+
+#mini1{
+    background: rgb(255,245,239);
+background: radial-gradient(circle, rgba(255,245,239,1) 0%, rgba(255,154,124,0) 68%);
+}
+
+#mini1:hover{
+    background-image: url(act1.png);
+    background-size: cover;
+}
+
+#mini2{
+    margin-right:-590px;
+    background: rgb(255,154,124);
+background: radial-gradient(circle, rgba(255,154,124,0.6573223039215687) 11%, rgba(255,245,239,0) 69%);
+}
+
+#mini2:hover{
+    background-image: url(act4.png);
+    background-size: cover;
+}
+
+#mini3{
+    margin-left:-740px;
+    background: rgb(255,154,124);
+background: radial-gradient(circle, rgba(255,154,124,0.6573223039215687) 11%, rgba(255,245,239,0) 69%);
+}
+
+#mini3:hover{
+    background-image: url(act5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#act5{
+    height: 150px;
+    width: 100%;
+}
+
+
+#comp1{
+
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin:0;
+}
+
+#comp2{
+
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin:0;
+margin-top:3%;}
+
+#comp3{
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin:0;
+margin-top:3%;}
+
+#icon{
+    margin-top:60px;
+    height: 20px;
+    width: 20pt;
+}
