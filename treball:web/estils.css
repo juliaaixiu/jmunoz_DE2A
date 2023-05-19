@@ -1,0 +1,522 @@
+body{
+  margin:0 auto;
+}
+
+#cabecera{
+  display: flex;
+  width:auto;
+  align-items: center;
+  height:140px;
+padding-right:50px;
+margin:0 auto;
+}
+#logo{
+  margin-left:50px;
+  width:310px;
+}
+
+#screen1{
+  width:auto;
+  height: 1400px; ;
+  margin:0 auto;
+}
+
+#search{
+display: inline-flex;
+height:40px;
+width:900px;
+margin-left: 90px;
+background-color:white;
+border:2px solid;
+border-radius:25px;
+border-color: black;
+-moz-border-radius:25px;
+-webkit-border-radius:25px;
+float:left;
+align-items: center;
+margin-right: 430px;
+text-align: center;
+justify-content: justify;
+}
+
+.mic{
+margin-left:650px;
+  width:40px;
+  text-align: right;
+}
+.find{
+  display: flex;
+  align-items: center;
+  margin-left:30px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 12pt;
+  font-weight: lighter;
+
+}
+
+.access1{
+    color: black;
+    text-decoration: none;
+    text-align:center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: lighter;
+    cursor: pointer;
+  }
+
+  .access1:hover{
+    opacity:60%;
+  }
+
+#register{
+  background-color:white;
+  border:2px solid;
+  border-radius:25px;
+  border-color: black;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  height:40px;
+  width:160px;
+  text-align: center;
+  float:left;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+#login{
+  margin-left:40px;
+  background-color:black;
+  border:2px solid;
+  border-radius:25px;
+  border-color: black;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  height:40px;
+  width:160px;
+
+
+  float:right;
+  line-height: 0;
+  margin-top:0;
+  display: inline-flex;
+  align-items: center;
+justify-content: center;
+
+}
+.access2{
+  color: white;
+  text-decoration: none;
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: inherit;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 12pt;
+  font-weight: lighter;
+  cursor:pointer;
+}
+
+.access2:hover{
+  opacity:60%;
+}
+
+#screen11{
+margin-left: 50px;
+font-family: 'Archivo Black', sans-serif;
+font-size: 22pt;
+float:left;
+width: 400px;
+float:left;
+}
+
+#video{
+  float: left;
+  height:1200px;
+  width: 900px;
+}
+
+#date{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14pt;
+  text-align:right;
+  margin-top:96px;
+}
+
+#video2{
+  height:1200px;
+  width:700px;
+  text-align: center;
+  float:right;
+  line-height: 0;
+  margin-top:0;
+  display: inline-flex;
+  align-items: center;
+justify-content: center;
+
+}
+#titlesong{
+margin-top:200px;
+font-family: 'Fira Sans', sans-serif;
+font-size: 26pt;
+text-align: center;
+}
+
+#playing{
+  margin-top:40px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14pt;
+  text-align: left;
+  float: left;
+}
+#artist{
+  margin-top:40px;
+  text-align: right;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14pt;
+  font-weight: 600;
+}
+#dovevid{
+  margin-top:60px;
+}
+
+#beaux{
+margin-top: 120px;
+  background-image: url(beaux.jpeg);
+  width:450px;
+  height:270px;
+  background-size: contain;
+
+}
+#beauxname{
+  height:30px;
+  margin-top:315px;
+  text-align:right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14pt;
+  font-weight: 600;
+
+
+}
+#portada{
+  width: 1000px;
+  height: 910px;
+justify-content: flex-end;
+text-align: right;
+float:right;
+line-height: 0;
+padding-right: 60px;
+margin-top:0;
+  ;
+
+}
+  #covers2{
+    display: inline-block;
+    margin-right:100px;
+  }
+
+#covers1{
+  display: inline-block;
+}
+
+nav{
+  height:50px;
+float:left;
+  align-items: center;
+  justify-content: flex-start;
+margin: auto;
+float:left;
+line-height: 0;
+margin-top:0;
+
+}
+
+a{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  margin-left: 0px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 22pt;
+  padding:0 5px;}
+
+}
+a::after{
+  content:"";
+  position:absolute;
+  background-color: red;
+  height:3px;
+  width:100%;
+  left:0;
+  bottom:-10px;
+  transition: 0.3s
+}
+
+a:hover{ color:red;}
+
+}
+
+#screen22{
+  background-color: green;
+  margin-top:20px;
+  margin-left:50px;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 80pt;
+  width: 1100px;
+  height:500px;
+  text-align: right;
+  float:left}
+
+#screen222{
+  margin-left:50px;
+  line-height: 190%;
+  width: 1100px ;
+  height:410px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 22pt;
+  text-align:right;
+  float:left;}
+
+.marge{
+  margin-top: 350px;
+
+}
+
+  .lista{
+    margin-top: 92px;
+
+  }
+
+.cuadraditos1{
+  height:270px;
+  width:270px;
+margin-bottom:50px;}
+
+
+  .cuadraditos2{
+    height:270px;
+    width:270px;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 50px}
+
+#div1{
+  background-image: url(dprian.jpeg);
+  background-size: cover;}
+
+#div2{
+  background-image: url(5sos.jpeg);
+  background-size: cover;}
+
+#div3{
+  background-image: url(be_o.jpg);
+  background-size: cover;}
+
+#div4{
+  background-image: url(lauv.jpeg);
+  background-size: cover;}
+
+#div5{
+  background-image: url(keshi.jpeg);
+  background-size: cover;
+}
+
+#div6{
+  background-image: url(dylan.jpg);
+  background-size: cover;}
+
+.rising{
+  margin-top:300px;
+  text-align: right;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 80pt;
+}
+#screen3{
+  padding-top:100px;
+  margin-top:1160px;
+    margin-left:60px;
+    height:1200px;
+    margin-right:60px;
+  }
+
+#covers3{
+  margin-top:140px;
+height: 280px;
+}
+
+.cuadraditos3{
+  margin-left:0px;
+  height: 250px;
+  width:600px;
+float:left;
+}
+
+#sel{
+  margin-right: 144px;
+  background-image: url(sel.jpg);
+background-size: cover;}
+
+#onerep{
+  margin-right: 145px;
+  background-image: url(onerepublic.jpeg);
+  background-size:cover;
+
+}
+
+#the1975{
+  background-image: url(1975.png);
+  background-size:cover;
+
+}
+.material-symbols-outlined{color:red;}
+
+#you{
+  margin-bottom: 40px;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 22pt;
+height:30px}
+}
+
+.songs{height:100px; width:600px;}
+
+#selsong{
+  height:100px;
+  width:600px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14pt;
+  text-align:right;
+ float:left;
+}
+
+#onesong{
+  margin-left: 144px;
+  height:100px;
+  width:600px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14pt;
+  text-align:right;
+ float:left;
+}
+
+#the1975song{
+  margin-left:145px;
+  height:100px;
+  width:600px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 14pt;
+  text-align:right;
+ float:left;
+}
+
+.icon{
+  margin-top:20px;
+  float:left;
+  width: 600px;
+  height:100px;
+  text-align: left;
+}
+
+#icon1{
+  margin-right: 144px;
+
+}
+#icon2{
+  margin-right: 144px;
+}
+
+#cookies{
+  bottom:0px;
+  float:left;
+height: 550px;
+width:600px;
+margin-right:144px;
+font-family: 'Fira Sans', sans-serif;
+font-size: 12pt;
+}
+
+#line{
+margin-top:370px;
+}
+#free{
+  display: flex;
+  height: 210px;
+  width:600px;
+float: left;
+margin-right:144px;
+font-family: 'Archivo Black', sans-serif;
+font-size: 22pt;
+}
+
+#free2{
+  margin-top:185px;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 22pt;
+  text-align: center;
+}
+#discover{
+  display: flex;
+  justify-content: flex-end;
+  height: 210px;
+  width:600px;
+}
+#more{
+  display: flex;
+  margin-top:185px;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 22pt;
+  text-align: right;
+}
+
+#menu2{
+  width: 600px;
+  height: 270px;
+  float:right;
+  margin-right: 1px;
+  text-align: justify;
+}
+
+.right{  font-family: 'Fira Sans', sans-serif;
+  font-size: 18pt;
+margin-left:350px;}
+
+#foot{
+  display: flex;
+  width:auto;
+  align-items: center;
+  height:140px;
+  padding-right:50px;
+  margin:0 auto;
+  background-color: black;
+  justify-content: flex-end;
+}
+.fin{
+  float:left;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+font-size: 22pt;
+color: white;
+margin-right:140px;
+}
+
+.download{
+  text-align: right;
+  font-family: 'Archivo Black', sans-serif;
+font-size: 28pt;
+color:red;
+text-decoration: none;
+}
+
+#a{
+  text-decoration: none;
+  color:red;
+}
