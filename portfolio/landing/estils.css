@@ -1,0 +1,31 @@
+*{
+    margin: 0auto;
+    padding: 0;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+    min-height:100vh;
+    background: rgb(144,189,67);
+    background: radial-gradient(circle, rgba(144,189,67,1) 0%, rgba(246,213,192,1) 69%, rgba(247,217,198,1) 73%, rgba(255,245,239,1) 100%);
+}
+
+h1{
+   text-decoration: none;
+font-family: 'WindSong', cursive;
+font-size:48pt;
+color: white;
+font-weight: 300;
+text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+h1:hover{
+opacity:50%;
+transform: scale(1.1);
+
+}
