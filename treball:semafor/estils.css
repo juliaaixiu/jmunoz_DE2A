@@ -1,0 +1,125 @@
+*{padding:0;
+    margin:0 auto;
+  
+}
+
+    #contenedor{
+        width: 100%;
+       height:1181px;
+       position: relative;
+    }
+
+#fondo{
+    width: 100%;
+    height:1181px;
+    background-image: url(fondo.jpg);
+    background-size:cover;
+}
+
+#palovertical{
+width:25px;
+height:500px;
+background-color: rgb(33, 29, 13);
+}
+
+#arco1{
+    position: fixed;
+    width: 64px;
+    height: 50px;
+    top:35%;
+    left:18%;
+    border-top-left-radius:50%;
+    border-top-right-radius: 50%;
+    border-top:solid black;
+    border-width: 9pt;
+}
+
+#arco2{
+    position: absolute;
+    top:10px;
+    width: 64px;
+    height: 50px;
+    left:18%;
+    border-top-left-radius:50%;
+    border-top-right-radius: 50%;
+    border-top:solid black;
+    border-width: 9pt;
+}
+
+#arco3{
+    position: absolute;
+    top:160px;
+    width: 64px;
+    height: 50px;
+    left:18%;
+    border-top-left-radius:50%;
+    border-top-right-radius: 50%;
+    border-top:solid black;
+    border-width: 9pt;
+}
+
+
+    #caja{
+        width: 100px;
+        height:240px;
+        background-color: rgb(33, 29, 13);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 15px;
+        align-items: center;
+
+    }
+
+    .redonda{
+        border-radius: 50%;
+        margin-top:14px;
+        height: 60px;
+        width: 60px;
+        
+        }
+
+        #redondas{
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+     #rojo{
+        background-color: rgba(255, 0, 0, 0.445);
+     }
+
+    #amarillo{
+    background-color: rgba(255, 242, 0, 0.445);
+    }
+
+    #verde{
+        background-color: rgba(0, 128, 0, 0.445);
+
+    }
+   
+    
+    
+@media screen and (max-width:521px){
+    #rojo{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 522px) and (max-width:999px)
+        
+{#amarillo{
+    background-color: rgb(255, 242, 0);
+        }
+    }
+
+    @media screen and (min-width:1000px){
+        #verde{
+            background-color: rgb(35, 245, 35);
+        }
+    }
+    
+    
